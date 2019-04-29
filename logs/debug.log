@@ -1,0 +1,128 @@
+2019-04-29 14:36:19 [restartedMain] INFO  c.l.SpringBootLogbackSlf4jApplication -
+				Starting SpringBootLogbackSlf4jApplication on ram-desktop with PID 17904 (started by ram in /home/ram/Documents/Shiva workspace/spring-boot-logback-slf4j)
+2019-04-29 14:36:19 [restartedMain] DEBUG c.l.SpringBootLogbackSlf4jApplication -
+				Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-29 14:36:19 [restartedMain] INFO  c.l.SpringBootLogbackSlf4jApplication -
+				No active profile set, falling back to default profiles: default
+2019-04-29 14:36:24 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				Driver class org.h2.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@21f4ea59
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				HikariPool-1 - configuration:
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				allowPoolSuspension.............false
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				autoCommit......................true
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				catalog.........................none
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				connectionInitSql...............none
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				connectionTestQuery.............none
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				connectionTimeout...............30000
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				dataSource......................none
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				dataSourceClassName.............none
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				dataSourceJNDI..................none
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				dataSourceProperties............{password=<masked>}
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				driverClassName................."org.h2.Driver"
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				healthCheckProperties...........{}
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				healthCheckRegistry.............none
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				idleTimeout.....................600000
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				initializationFailTimeout.......1
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				isolateInternalQueries..........false
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				leakDetectionThreshold..........0
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				maxLifetime.....................1800000
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				maximumPoolSize.................10
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				metricRegistry..................none
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				metricsTrackerFactory...........none
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				minimumIdle.....................10
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				password........................<masked>
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				poolName........................"HikariPool-1"
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				readOnly........................false
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				registerMbeans..................false
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				scheduledExecutor...............none
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				schema..........................none
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				threadFactory...................internal
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				transactionIsolation............default
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				username........................"sa"
+2019-04-29 14:36:25 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig -
+				validationTimeout...............5000
+2019-04-29 14:36:25 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2019-04-29 14:36:26 [restartedMain] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2019-04-29 14:36:26 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2019-04-29 14:36:26 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2019-04-29 14:36:26 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:testdb user=SA
+2019-04-29 14:36:26 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:testdb user=SA
+2019-04-29 14:36:26 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:testdb user=SA
+2019-04-29 14:36:26 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+2019-04-29 14:36:26 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:testdb user=SA
+2019-04-29 14:36:26 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:testdb user=SA
+2019-04-29 14:36:26 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:testdb user=SA
+2019-04-29 14:36:26 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:testdb user=SA
+2019-04-29 14:36:26 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:testdb user=SA
+2019-04-29 14:36:26 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2019-04-29 14:36:58 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-04-29 14:37:39 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-04-29 14:38:10 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-04-29 14:38:52 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-04-29 14:45:50 [restartedMain] INFO  c.l.SpringBootLogbackSlf4jApplication -
+				Starting SpringBootLogbackSlf4jApplication on ram-desktop with PID 4923 (started by ram in /home/ram/Documents/Shiva workspace/spring-boot-logback-slf4j)
+2019-04-29 14:45:50 [restartedMain] DEBUG c.l.SpringBootLogbackSlf4jApplication -
+				Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-29 14:45:50 [restartedMain] INFO  c.l.SpringBootLogbackSlf4jApplication -
+				No active profile set, falling back to default profiles: default
+2019-04-29 14:45:55 [restartedMain] INFO  c.l.SpringBootLogbackSlf4jApplication -
+				Started SpringBootLogbackSlf4jApplication in 6.277 seconds (JVM running for 7.468)
+2019-04-29 14:46:36 [restartedMain] INFO  c.l.SpringBootLogbackSlf4jApplication -
+				Starting SpringBootLogbackSlf4jApplication on ram-desktop with PID 4923 (started by ram in /home/ram/Documents/Shiva workspace/spring-boot-logback-slf4j)
+2019-04-29 14:46:36 [restartedMain] DEBUG c.l.SpringBootLogbackSlf4jApplication -
+				Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-29 14:46:36 [restartedMain] INFO  c.l.SpringBootLogbackSlf4jApplication -
+				No active profile set, falling back to default profiles: default
+2019-04-29 14:46:37 [restartedMain] INFO  c.l.SpringBootLogbackSlf4jApplication -
+				Started SpringBootLogbackSlf4jApplication in 0.684 seconds (JVM running for 48.658)
